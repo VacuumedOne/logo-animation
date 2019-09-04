@@ -3,7 +3,7 @@ import React from 'react';
 const svg : React.FC = () => {
   return (
 
-<svg viewBox="0 0 300 300" width="300" height="300">
+<svg className="path-box box-_" viewBox="0 0 300 300" width="300" height="300">
 
 {/* fill */}
 <g className="fill _" fill="none">
