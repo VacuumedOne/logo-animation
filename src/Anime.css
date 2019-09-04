@@ -1,0 +1,46 @@
+.box {
+  height: 50px;
+  width: 50px;
+}
+
+.group1 {
+  background-color: aquamarine;
+  position: relative;
+  top: 25px;
+  left: -150px;
+  border-radius: 50%;
+}
+
+.group2 {
+  background-color: lime;
+}
+
+#wrap {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#paths {
+  background-color: white;
+}
+
+.fill {
+  stroke: black;
+}
+
+
+path {
+  /* stroke-dasharray: 470px;
+  stroke-dashoffset: 470px; */
+  /* animation: draw 2s linear infinite; */
+}
+
+/* @keyframes draw {
+  to {
+    stroke-dashoffset: 0px;
+  }
+} */
